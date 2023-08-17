@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo {
+    width: 70px;
+    padding: 10px;
+}
+
+body header nav ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-family: "sans-serif;"
+        
+}
+
+.header{ 
+    height: 90px;    
+    background: rgb(184, 100, 135);
+
+}
+
+
+body main{
+    background-image: url("imagenes/spabacks.jpg");
+    background-size: cover;
+    height: 1200px;
+}
+
+section#entrada {
+    position: absolute;
+}
+
+body main section h1 {
+    padding-top: 100px;
+    margin: 30px;
+}
+
+body main section div p{
+    text-align: left;
+    padding-right: 300px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+    
+body main section div img {
+    position: relative;
+    
+}
+   
+a:link, a:visited, a:active {
+    text-decoration:none;
+
+}
+
+body main img{
+    margin: 40px;
+    border-radius: 10px;
+    background-size: cover;
+        
+}
+
+.contacto {
+    padding-top: 150px;
+    font-size: 40px;
+    height: 150px;
+}
+
+body main {
+    text-align: center;
+}
+
+body main section#tiposmasajes {
+    padding-top: 700px;
+}
+
+body main section h2 {
+    font-size: 40px;
+    margin: 50px;
+}
+
+body main section h3 {
+    font-size: 30px;
+    margin: 15px;
+    
+}
+
+body main section h4 {
+    text-align: left;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 25%;
+    font-weight: normal;
+}
+
+.letra {
+    font-family: sans-serif 
+    }
+
+footer{
+    background: rgb(184, 100, 135);
+    height: 250px;
+}
+
