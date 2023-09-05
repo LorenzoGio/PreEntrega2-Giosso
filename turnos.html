@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Turnos</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header class="header">
         <a href="index.html">
-        <img src="imagenes/iconoMasaje.png" alt="logo" class="logo">
+             <img src="imagenes/iconoMasaje.png" alt="logo" class="logo">
         </a>
         <nav>
             <ul>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="turnos.html">Turnos</a></li>
-                <li><a href="masajes.html">Masajes</a></li>
+                <li><a  class="botonnav" href="nosotros.html">Nosotros</a></li>
+                <li><a  class="botonnav" href="turnos.html">Turnos</a></li>
+                <li><a  class="botonnav" href="masajes.html">Masajes</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="cuerpo">
         <section>
-            <div class="contacto">
+            <div class="contacto subtitulo">
                 Contactenos
             </div>
-            <form>
+            <form class="centrado">
                 <fieldset>
                     <label for="name">Nombre</label>
                     <input type="text" id="name" placeholder="Ingrese su nombre...">
@@ -35,7 +35,7 @@
                     <label for="masaje">Tipo de masaje</label>
                     <input type="text" id="masaje" placeholder="Tipon de masaje...">
 
-                <div>    
+                <div class="centrado2">    
                     <button>Reset</button>
                     <button>Enviar</button>
                 </div>
@@ -46,21 +46,21 @@
     <footer>
         <a href="index.html" >
             <img src="imagenes/iconoMasaje.png" alt="logo" class="logo">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="turnos.html">Turnos</a></li>
-                    <li><a href="masajes.html">Masajes</a></li>
-                </ul>
-            </nav>
-            <nav>
-                <h3>
-                    <li>Dirección: asdasdd</li>
-                    <li>Telefono: asdasdd</li>
-                    <li>Mail: asdasdd</li>
-                </h3>
-            </nav>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="turnos.html">Turnos</a></li>
+                <li><a href="masajes.html">Masajes</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>Dirección: asdasdd</li>
+                <li>Telefono: asdasdd</li>
+                <li>Mail: asdasdd</li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>

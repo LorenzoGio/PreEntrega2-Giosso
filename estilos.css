@@ -7,12 +7,63 @@
 .grid {
     display: grid;
 }
-.maquetado {
-    display: grid;
-    grid-template-areas: 
-    "texto texto";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+
+#entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(189, 209, 248);
+    min-height: 400px;
+
+}
+
+#cuerpo { 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(189, 209, 248);
+    min-height: 400px;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+.subtitulo2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.parrafo {
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: start;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrado2 {
+    flex-direction: row;
+    text-align: center;
 }
 
 .botonnav {
@@ -41,14 +92,20 @@
     padding: 10px;
 }
 
+.logo2 {
+    width: 70px;
+}
+
+.inicio {
+    text-align: left;
+}
+
 .main {
-    grid-area: texto;
     min-height: 1000px;
 }
 
 
 .header{ 
-    grid-area: header;
     min-height: 90px;
     background: rgb(154, 185, 243);
     display:flex ;
@@ -90,40 +147,19 @@ body header nav ul li {
     }
 }
 
-
-body main{
-    background-image: url("imagenes/spabacks.jpg");
-    background-size: cover;
-    min-height: 1200px;
+@media (max-width: 576px) {
+    .card {
+        flex-basis: 100%; 
+    }
 }
 
-section#entrada {
-    position: absolute;
-}
-
-body main section h1 {
-    padding-top: 100px;
-    margin: 30px;
-}
-
-body main section div p{
-    text-align: left;
-    padding-right: 300px;
-    margin-left: 80px;
-    font-family: sans-serif;
-}
-    
-body main section div img {
-    position: relative;
-    
-}
    
 a:link, a:visited, a:active {
     text-decoration:none;
 
 }
 
-body main img{
+body main img {
     margin: 40px;
     border-radius: 10px;
     background-size: cover;
@@ -136,35 +172,6 @@ body main img{
     height: 150px;
 }
 
-body main {
-    display: grid;
-    text-align: center;
-}
-
-body main section#tiposmasajes {
-    padding-top: 700px;
-}
-
-body main section h2 {
-    
-    font-size: 40px;
-    margin: 0px;
-}
-
-body main section h3 {
-    font-size: 30px;
-    margin: 15px;
-    
-}
-
-body main section h4 {
-    text-align: left;
-    margin: 10px;
-    padding-left: 10%;
-    padding-right: 25%;
-    font-weight: normal;
-}
-
 .letra {
     font-family: sans-serif 
     }
@@ -173,7 +180,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background: rgb(154, 185, 243);
-    height: 150px;
+    height: 140px;
     padding: 15px;
     list-style: none;
 }
